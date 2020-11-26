@@ -54,5 +54,17 @@ Data Analysis Using Power BI
 
 `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
 
+2. Formula to create New Measure Revenue
+
+ Revenue = SUM('sales transactions'[sales_amount])
+
+3. Formula to create New Measure Sales Qty
+ 
+ Sales Qty = SUM('sales transactions'[sales_qty]
+ 
+4. Formula to create New Measure Product Count
+ 
+ Product count = CALCULATE(COUNTROWS('sales_transaction',FILTER(ALLSELECTED('sales_transactions'),'sales_transactions'[product_code]=MAX('sales_transactions'[product_code])))
+
 
 
