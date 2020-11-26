@@ -1,6 +1,9 @@
 Data Analysis Project on generating on sales insights of AtliQ Hardware company.
 
-Analysed Company information using Power BI tool by connecting MYSQL database.
+Purpose
+To unlock sales insights that are not visible before for decision support and analyze Company information using Power BI tool by connecting MYSQL database.
+End Result
+An automated dashboard providing quick & latest sales insights in order to support data driven decision making
 
 AtliQ Hardware ia a companay which supplies computer hardware and peripherals to many of the clients across India.
 Company has a head office in Delhi.
