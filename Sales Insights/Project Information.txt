@@ -1,0 +1,24 @@
+Data Analysis Project on generating on sales insights of AtliQ Hardware company.
+
+Analysed Company information using Power BI tool by connecting MYSQL database.
+
+AtliQ Hardware ia a companay which supplies computer hardware and peripherals to many of the clients across India.
+Company has a head office in Delhi.
+Bhavin Patel - Sales Director.
+
+
+Dataset Information
+There are total 5 tables
+1. Customers - Customer Code, Customer name, Customer type
+2. Date - Date, cy_date, year, month_name, 
+3. Markets - Market code, Market Name, Zone
+4. Products - Product code ,Product type
+5. Transactions - Product Code, Customer Code, Market Code, Order_Date, Sales Quantity, Sales Amount, Currency
+
+
+
+Sri Chandana Gundi
+7799809929
+siri.chandana315@gmail.com
+https://github.com/siri315/POWER-BI-PROJECT.git
+
